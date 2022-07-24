@@ -466,13 +466,15 @@
         background: url(Air-conditioner.png) no-repeat center center/cover ;
         /* background-color: blue; */
         height: 110px;
-        width: 33%;
+        width: 28%;
         /* width: 150px; */
-        margin: -65px auto 0px auto;
+        margin-top: -65px;
+        position: absolute;
+        z-index: 1;
     }
     
     .trending-img{
-        height: 80px;
+        height: 65px;
         width: 100%;
         /* width: 50px; */
         display: flex;
