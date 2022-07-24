@@ -63,13 +63,16 @@
 
 .top {
     display: flex;
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(38, 189, 33); */
 }
 
-.home-services::before {
+/* .home-services::before {
     content: "";
     background: url(slider-1.png) no-repeat center center/cover;
-    /* background-color: rgb(119, 109, 182); */
-    /* height: 100%; */
+    background-color: rgb(119, 109, 182);
+    height: 600px;
     width: 50%;
     position: absolute;
     z-index: -1;
@@ -77,28 +80,29 @@
     right: 0px;
     left: 0px;
     bottom: 0px;
-    /* opacity: 0.2; */
-}
+} */
 
 .home-services {
     width: 50%;
     /* height: 700px; */
+    /* height: auto; */
+    background: url(slider-1.png) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    /* background-color: rgb(86, 226, 43); */
+    /* background-color: rgb(144, 158, 139); */
 }
 
-.home-serv-heading{
+.home-serv-heading {
     text-align: center;
     color: white;
 }
 
 .home-services p {
     margin: 10px 0px;
-    text-align: center; 
+    text-align: center;
     /* padding: 0px; */
 }
 
@@ -107,7 +111,7 @@
     display: flex;
 }
 
-.ll{
+.ll {
     display: none;
 }
 
@@ -150,23 +154,24 @@
 
 .looking {
     width: 50%;
+    /* height: auto; */
     /* height: 700px; */
     /* background-color: brown; */
     display: flex;
     flex-direction: column;
 }
 
-.looking-heading{
+.looking-heading {
     text-align: center;
     margin-top: 6px;
 }
 
-.top-offer{
+.top-offer {
     display: none;
 }
 
 .flat-2 {
-    background-color:  rgb(207, 84, 84);
+    background-color: rgb(207, 84, 84);
     color: white;
     width: 130px;
     height: 25px;
@@ -213,48 +218,48 @@
     padding: 5px 0px;
 }
 
-.looking-slider{
-    margin:0px 0px 0px 20px; 
-    padding:0px 40px ;
+.looking-slider {
+    margin: 0px 0px 0px 20px;
+    padding: 0px 40px;
     display: block;
     /* background-color: #ffcc00;  */
 }
 
-.looking-slider-img{
-    height: 162px; 
-    border-radius: 10px; 
-    margin: 0px; 
+.looking-slider-img {
+    height: 162px;
+    border-radius: 10px;
+    margin: 0px;
     padding: 0px;
 }
 
-.looking-slider-resp{
-    margin:8px 0px 0px 0px; 
-    padding:0px 40px ;
+.looking-slider-resp {
+    margin: 8px 0px 0px 0px;
+    padding: 0px 40px;
     display: none;
     /* background-color: #e26715; */
-    
-} 
 
-.looking-slider-img-resp{
-    height: 200px; 
-    border-radius: 10px; 
-    margin: 0px; 
+}
+
+.looking-slider-img-resp {
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px;
     padding: 0px;
 
 }
 
 @media screen and (max-width:820px) {
-    .ll{
+    .ll {
         display: block;
     }
-    
-    .nav{
+
+    .nav {
         justify-content: center;
         background-color: white;
         box-shadow: none;
     }
 
-    .ul{
+    .ul {
         display: none;
     }
 
@@ -262,7 +267,7 @@
         display: none;
     }
 
-    .nav p{
+    .nav p {
         font-size: 2.7vw;
         margin: 10px 0px;
         text-align: center;
@@ -273,7 +278,7 @@
         margin: 0px 5px;
     }
 
-    .home-serv-heading{
+    .home-serv-heading {
         font-size: 24px;
     }
 
@@ -287,8 +292,8 @@
         align-items: center;
         margin: auto;
     }
-    
-    .icons{
+
+    .icons {
         padding: 9px;
     }
 
@@ -304,39 +309,39 @@
         width: 9vw;
     }
 
-    .home-services{
+    .home-services {
         display: none;
     }
 
-    .top-offer{
+    .top-offer {
         text-align: center;
         margin: 9px 5px 0px 5px;
         display: block;
     }
 
-    .looking{
+    .looking {
         width: 100%;
     }
 
-    .looking-heading{
+    .looking-heading {
         display: none;
     }
 
-    .flat-container{
+    .flat-container {
         display: none;
     }
 
-    .looking-slider-resp{
+    .looking-slider-resp {
         display: block;
-        padding:0px 40px ;
+        padding: 0px 40px;
     }
 
-    .looking-slider-img-resp{
-        height: 170px; 
+    .looking-slider-img-resp {
+        height: 170px;
         width: 100%;
     }
 
-    .looking-slider{
+    .looking-slider {
         display: none;
     }
 }
@@ -372,10 +377,107 @@
     }
 }
 
-@media screen and (min-width: 100px){
-.uk-grid>*{
-padding: 0px 6px 0px 6px;
-/* margin: 0px 0px 0px 40px;   */
-/* padding-right: 5px; */
+@media screen and (min-width: 100px) {
+    .uk-grid>* {
+        padding: 0px 6px 0px 6px;
+        /* margin: 0px 0px 0px 40px;   */
+        /* padding-right: 5px; */
+    }
 }
+
+.trending-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trending-heading{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.trending-para{
+    text-align: center;
+    margin: 0px;
+}
+
+.trending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+}
+
+.trending-box{
+    /* width: 100%; */
+    margin: 100px 30px 10px 30px;
+    /* background-color: #ffcc00; */
+    box-shadow: 0px 0px 10px black;
+    border-radius: 6px;
+}
+
+.trending-img::before{
+    content: "";
+    background: url(Air-conditioner.png) no-repeat center center/cover;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 172px;
+    margin: -95px auto 0px auto;
+}
+
+.trending-img{
+    height: 98px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.trending-text{
+    text-align: center;
+}
+
+@media screen and (max-width:520px) {
+    .row{
+        display: flex;
+    }
+
+    .trending-box{
+        flex-wrap: nowrap;
+        /* width: 50vw; */
+        padding: 0px 12px;
+    }
+
+    .trending-box-d-none{
+        display: none;
+    }
+
+    .trending-img::before{
+        content: "";
+        background: url(Air-conditioner.png) no-repeat center center/cover ;
+        height: 200px;
+        width: 36%;
+    }
+    
+    .trending-img{
+        height: 98px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        /* background-color: aqua; */
+    }
+
+    .trending-box{
+        margin: 100px 12px 10px 12px;
+    }
 }
