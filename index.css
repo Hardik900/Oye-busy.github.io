@@ -451,9 +451,10 @@
     }
 
     .trending-box{
+        width: 100%;
         flex-wrap: nowrap;
-        /* width: 50vw; */
-        padding: 0px 12px;
+        margin: 75px 12px 10px 12px;
+        padding: 0px 10px;
     }
 
     .trending-box-d-none{
@@ -463,21 +464,22 @@
     .trending-img::before{
         content: "";
         background: url(Air-conditioner.png) no-repeat center center/cover ;
-        height: 200px;
-        width: 36%;
+        /* background-color: blue; */
+        height: 110px;
+        width: 33%;
+        /* width: 150px; */
+        margin: -65px auto 0px auto;
     }
     
     .trending-img{
-        height: 98px;
+        height: 80px;
         width: 100%;
+        /* width: 50px; */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        margin: 0px auto;
+        padding: 0px;
         /* background-color: aqua; */
-    }
-
-    .trending-box{
-        margin: 100px 12px 10px 12px;
     }
 }
