@@ -333,7 +333,7 @@
 
     .looking-slider-resp {
         display: block;
-        padding: 0px 40px;
+        padding: 0px 10px;
     }
 
     .looking-slider-img-resp {
@@ -497,6 +497,10 @@
 @media screen and (max-width:560px) {
     .row{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
         /* flex-wrap: wrap; */
     }
 
@@ -540,10 +544,11 @@
     .trending-text p{
         /* padding: 0px; */
         margin: 8px 2px 9px 2px;
+        font-size: 15px;
     }
 
     .same-day-box{
-        width: 90%;
+        width: 26%;
         flex-wrap: nowrap;
         margin: 75px 10px 10px 10px;
         padding: 0px 10px;
@@ -562,7 +567,7 @@
     
     .same-day-img{
         height: 50px;
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
