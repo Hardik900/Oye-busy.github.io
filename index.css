@@ -86,7 +86,7 @@
     width: 50%;
     /* height: 700px; */
     /* height: auto; */
-    background: url(slider-1.png) no-repeat center center/cover;
+    background: url(Carpenter-PNG-Image.png) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,12 +97,16 @@
 
 .home-serv-heading {
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: 500;
 }
 
 .home-services p {
     margin: 10px 0px;
     text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
     /* padding: 0px; */
 }
 
@@ -707,7 +711,7 @@
 }
 
 .assured-container{
-    background-color: rgb(199, 197, 197);
+    background-color: rgb(229, 226, 226);
     margin: 20px auto;
 }
 
@@ -727,7 +731,7 @@
 
 .assured-1{
     width: 33.33%;
-    background-color: rgb(199, 197, 197);
+    background-color:  rgb(229, 226, 226);
     display: flex;
     padding-bottom: 15px ;
 }
@@ -744,9 +748,9 @@
     padding: 0px;
 }
 
-.para{
-    margin: 10px 15px;
-    padding: 0px;
+.par{
+    /* margin: 10px 15px 10px 45px; */
+    padding: 0px 0px 0px 15px;
 }
 
 .try-container{
