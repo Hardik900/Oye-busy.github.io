@@ -963,9 +963,49 @@ hr{
 
 .electrician-text{
     text-align: center;
-    padding: 25px 5px 1px 5px;
+    padding: 0px 5px 1px 5px;
     color: black;
-    /* padding-bottom: 1px; */
+}
+
+.why{
+    width: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why{
+    /* text-align: left; */
+}
+
+.u{
+    text-align: left;
+    margin: auto;
+    color: black;
+}
+
+.customer-box{
+    margin: 20px 0px;
+    padding: 0px 0px 0px 25px;
+}
+
+.customer-icon{
+    color: burlywood;
+}
+
+.customer-text{
+    margin: 10px 0px;
+    color: black;
+}
+
+.customer-name p{
+    color: green;
+}
+
+.safe-ul{
+    display: flex;
 }
 
 @media screen and (max-width:560px) {
@@ -997,6 +1037,13 @@ hr{
         margin: 0px auto;
         padding: 0px;
         /* background-color: aqua; */
+    }
+
+    
+    .electrician-text{
+        text-align: center;
+        padding: 20px 5px 1px 5px;
+        color: black;
     }
 }
 
