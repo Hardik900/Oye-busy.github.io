@@ -446,6 +446,7 @@
 .trending-text p{
     text-align: center;
     padding: 0px 10px;
+    color: black;
 }
 
 .same-day-box{ 
@@ -707,7 +708,7 @@
 
 .assured-container{
     background-color: rgb(199, 197, 197);
-    margin: 20px 0px;
+    margin: 20px auto;
 }
 
 .assured-heading{
@@ -725,6 +726,7 @@
 }
 
 .assured-1{
+    width: 33.33%;
     background-color: rgb(199, 197, 197);
     display: flex;
     padding-bottom: 15px ;
@@ -755,7 +757,7 @@
 
 .try-img{
     width: 35%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content:center;
     align-items: center;
@@ -837,6 +839,11 @@ hr{
         font-size: 28px;
     }
 
+    .assured-1{
+        width: 100%;
+        margin: auto;
+    }
+
     .heading{
         margin: 7px 15px;
         padding: 0px;
@@ -857,5 +864,171 @@ hr{
 
     .try-container{
         display: none;
+    }
+}
+
+.electrician-container{
+    width: 100%;
+    display: flex;
+    margin: 15px 0px;
+}
+
+.electrician-head{
+    width: 13%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0px 0px 0px 30px;
+}
+
+.para{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.head{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: green;
+}
+
+.head-resp{
+    display: none;
+}
+
+.electrician-carousel{
+    width: 87%;
+    /* background-color: rgb(49, 226, 43); */
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.electrician-box{ 
+    margin: 100px 30px 10px 30px;
+    /* background-color: #ffcc00; */
+    box-shadow: 0px 0px 10px black;
+    border-radius: 6px;
+}
+
+.electrician-box:hover{
+    background-image: linear-gradient(to bottom left, rgb(233, 184, 167), rgb(196, 48, 4));
+    color: white;
+}
+
+.electrician-img::before{
+    content: "";
+    background: url(Carpenter-PNG-Image.png) no-repeat center center/cover;
+    /* background-color: #ffcc00; */
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+    width: 153px;
+    margin: -110px auto 0px auto;
+}
+
+.electrician-img{
+    height: 98px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 10px auto;
+    /* background-color: aqua; */
+}
+
+
+.left{
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 20px 40px 0px 0px;
+}
+
+.right{
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 20px 0px 0px 40px;
+}
+
+.electrician-text{
+    text-align: center;
+    padding: 25px 5px 1px 5px;
+    color: black;
+    /* padding-bottom: 1px; */
+}
+
+@media screen and (max-width:560px) {
+    .electrician-box{
+        /* width: 26%; */
+        flex-wrap: nowrap;
+        margin: 75px 10px 10px 10px;
+        padding: 0px 5px;
+        /* background-color: burlywood; */
+    }
+
+    .electrician-img::before{
+        content: "";
+        background: url(Carpenter-PNG-Image.png) no-repeat center center/cover ;
+        /* height: 110px;
+        width: 20%; */
+        margin-top: -55px;
+        position: absolute;
+        z-index: 1;
+        /* background-color: blue; */
+    }
+    
+    .electrician-img{
+        /* height: 50px;
+        width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        padding: 0px;
+        /* background-color: aqua; */
+    }
+}
+
+@media screen and (max-width:800px) {
+    .electrician-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .electrician-head{
+        width: 100%;
+    }
+
+    .head{
+        display: none;
+    }
+
+    .head-resp{
+        margin: 35px 0px 0px 0px;
+        display: block;
+        text-align: center;
+        padding: 0px;
+        /* margin: 0px; */
+    }
+
+    .para{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .electrician-carousel{
+        width: 100%;
     }
 }
