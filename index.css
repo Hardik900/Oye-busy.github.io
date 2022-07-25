@@ -425,7 +425,7 @@
 
 .trending-img::before{
     content: "";
-    background: url(Air-conditioner.png) no-repeat center center/cover;
+    background: url(Air-conditioner-removebg-preview.png) no-repeat center center/cover;
     position: absolute;
     z-index: 1;
     height: 200px;
@@ -475,7 +475,7 @@
 
     .trending-img::before{
         content: "";
-        background: url(Air-conditioner.png) no-repeat center center/cover ;
+        background: url(Air-conditioner-removebg-preview.png) no-repeat center center/cover ;
         height: 110px;
         width: 28%;
         margin-top: -55px;
@@ -492,6 +492,11 @@
         align-items: center;
         margin: 0px auto;
         padding: 0px;
-        background-color: aqua;
+        /* background-color: aqua; */
+    }
+
+    .trending-text p{
+        /* padding: 0px; */
+        margin: 0px 2px 9px 2px;
     }
 }
